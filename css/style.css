@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+.contenedorpagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    border: 4px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width:200px;
+}
+
+
+#top{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin:10px;
+}
+
+.p1{
+    width: 900px;
+    height: 130px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.liki{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    margin:60px 20px 50px 0px;
+}
+
+.btnlike{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 8px;
+    font-weight: 780;
+    cursor: pointer;
+}
